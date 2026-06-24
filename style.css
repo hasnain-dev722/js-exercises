@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(129, 231, 129);
+}
+@keyframes blinking{
+    50%{
+        opacity: 0;
+    }
+}
+.blink.dots{
+    animation: blinking 1s infinite;
+}
