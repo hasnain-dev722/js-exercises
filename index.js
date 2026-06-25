@@ -26,27 +26,31 @@
 // starthacking();
 
 // 
-let a = prompt ("enter a number")
-let b = prompt ("enter second number")
+// let a = prompt ("enter a number")
+// let b = prompt ("enter second number")
 
-if(isNaN(a) && isNaN(b)){
-  throw SyntaxError("sorry this is not allowed")
-}
-let sum = parseInt(a)+parseInt(b)
-function main(){
-let x = 1;
-try{
-console.log("the sum is", sum*x)
-return false
-} catch (error) {
- console.log('error agya bhai');
- return true
+// if(isNaN(a) && isNaN(b)){
+//   throw SyntaxError("sorry this is not allowed")
+// }
+// let sum = parseInt(a)+parseInt(b)
+// function main(){
+// let x = 1;
+// try{
+// console.log("the sum is", sum*x)
+// return false
+// } catch (error) {
+//  console.log('error agya bhai');
+//  return true
  
-}
-finally{
-  console.log('files closed ha');
+// }
+// finally{
+//   console.log('files closed ha');
   
   
-}
-}
-let c = main();
+// }
+// }
+// let c = main();
+let container = document.querySelector("#container")
+let paragraph = document.querySelector(".color")
+container.innerHTML = "hasnain conatiner";
+paragraph.style.color = "green"
