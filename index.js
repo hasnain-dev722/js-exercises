@@ -49,4 +49,4 @@ finally{
   
 }
 }
-let c = main()
+let c = main();
