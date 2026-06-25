@@ -28,6 +28,7 @@
 // 
 let a = prompt ("enter a number")
 let b = prompt ("enter second number")
+let x = 1;
 if(isNaN(a) && isNaN(b)){
   throw SyntaxError("sorry this is not allowed")
 }
