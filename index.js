@@ -28,18 +28,25 @@
 // 
 let a = prompt ("enter a number")
 let b = prompt ("enter second number")
-let x = 1;
+
 if(isNaN(a) && isNaN(b)){
   throw SyntaxError("sorry this is not allowed")
 }
 let sum = parseInt(a)+parseInt(b)
+function main(){
+let x = 1;
 try{
 console.log("the sum is", sum*x)
+return false
 } catch (error) {
  console.log('error agya bhai');
+ return true
  
 }
 finally{
   console.log('files closed ha');
   
+  
 }
+}
+let c = main()
