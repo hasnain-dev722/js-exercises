@@ -26,5 +26,7 @@
 // starthacking();
 
 // 
-let a = (`enter a number`)
-let b = (`enter second number`)
+let a = prompt ("enter a number")
+let b = prompt ("enter second number")
+let sum = parseInt(a)+parseInt(b)
+console.log("the sum is", sum)
