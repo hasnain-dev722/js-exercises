@@ -69,5 +69,5 @@
 // };
 // rabbit.
 
-function main(){}
-console.dir(main);
+let ar = []
+console.dir(ar);
