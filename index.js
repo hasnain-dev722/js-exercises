@@ -25,7 +25,7 @@
 // }
 // starthacking();
 
-// 
+//
 // let a = prompt ("enter a number")
 // let b = prompt ("enter second number")
 
@@ -41,12 +41,11 @@
 // } catch (error) {
 //  console.log('error agya bhai');
 //  return true
- 
+
 // }
 // finally{
 //   console.log('files closed ha');
-  
-  
+
 // }
 // }
 // let c = main();
@@ -55,16 +54,36 @@
 // container.innerHTML = "hasnain conatiner";
 // paragraph.style.color = "green"
 
-let obj = {
-    a : 1,
-    b :"hasnain",
-}
-console.log(obj)
+// let obj = {
+//     a : 1,
+//     b :"hasnain",
+// }
+// console.log(obj)
 
-let animal = {
-    eats : true
-};
-let rabbit = {
-    jumps: true
-};
-rabbit.__proto__ = animal;
+// let animal = {
+//     eats : true
+// };
+// let rabbit = {
+//     jumps: true
+// };
+// rabbit.__proto__ = animal;
+
+class Animal {
+  constructor(name) {
+    this.name= name
+    console.log("object is created...");
+  }
+  eats() {
+    console.log("kha rha hu");
+  }
+  jumps() {
+    console.log("kood rha hu");
+  }
+}
+class lion extends Animal{
+
+}
+let a = new Animal("bunny")
+console.log(a);
+let l = new lion("shera")
+console.log(l)
