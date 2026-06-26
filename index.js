@@ -80,10 +80,18 @@ class Animal {
     console.log("kood rha hu");
   }
 }
-class lion extends Animal{
-
+class lion extends Animal {
+  constructor(name) {
+    super(name);
+    this.name = name;
+    console.log("object is created and he is lion...");
+  }
+  eats() {
+    super.eats()
+    console.log("kha rha hu roar");
+  }
 }
-let a = new Animal("bunny")
+let a = new Animal("hasnain")
 console.log(a);
 let l = new lion("shera")
 console.log(l)
