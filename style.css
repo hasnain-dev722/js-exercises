@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: rgb(129, 231, 129);
 }
 @keyframes blinking {
@@ -8,4 +8,16 @@ body {
 }
 .blink-dots {
   animation: blinking 1s infinite;
+} */
+
+.container{
+  color:violet;
+}
+.color{
+  color:red;
+}
+.magic-style{
+  background-color: blueviolet;
+  color:black; 
+  font-size: 24px;
 }

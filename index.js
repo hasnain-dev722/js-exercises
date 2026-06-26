@@ -49,7 +49,14 @@
 // }
 // }
 // let c = main();
-// let container = document.querySelector("#container")
+let container = document.querySelector(".container")
+let paragraph = document.querySelector(".color")
+let mybutton = document.querySelector("#btn")
+container.classList.toggle("magic-style")
+mybutton.addEventListener("click",()=>{
+   container.classList.toggle("magic-style")
+})
+
 // let paragraph = document.querySelector(".color")
 // container.innerHTML = "hasnain conatiner";
 // paragraph.style.color = "green"
@@ -96,45 +103,45 @@
 // let l = new lion("shera")
 // console.log(l)
 
-class joker{
-    constructor(name){
-        this.name = name
-    }
-    set name(newname){
-        if(newname.length<3){
-            console.log('modabana bra name likho');
+// class joker{
+//     constructor(name){
+//         this.name = name
+//     }
+//     set name(newname){
+//         if(newname.length<3){
+//             console.log('modabana bra name likho');
             
-        }else{
-            this._name = newname;
-        }
-    }
-    get name(){
-        return this._name.toUppercase()
-    }
-    eats(){
-        console.log('gemini joker ha');
+//         }else{
+//             this._name = newname;
+//         }
+//     }
+//     get name(){
+//         return this._name.toUppercase()
+//     }
+//     eats(){
+//         console.log('gemini joker ha');
         
-    }
-    jumps(){
-        console.log('bra dimag khatii ha ');
+//     }
+//     jumps(){
+//         console.log('bra dimag khatii ha ');
         
-    }
-}
-class hasnain extends joker {
-    constructor(name){
-        super(name)
-        this.name= name
-    }
-    eats(){
-        console.log('hasnin genius ha');
+//     }
+// }
+// class hasnain extends joker {
+//     constructor(name){
+//         super(name)
+//         this.name= name
+//     }
+//     eats(){
+//         console.log('hasnin genius ha');
         
-    }
-    jumps(){
-        console.log('shair ha');
+//     }
+//     jumps(){
+//         console.log('shair ha');
         
-    }
-}
-let a = new joker("gemini")
-console.log(a);
-let b = new hasnain("ge")
-console.log(b);
+//     }
+// }
+// let a = new joker("gemini")
+// console.log(a);
+// let b = new hasnain("ge")
+// console.log(b);
