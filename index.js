@@ -55,19 +55,16 @@
 // container.innerHTML = "hasnain conatiner";
 // paragraph.style.color = "green"
 
-// let obj = {
-//     a : 1,
-//     b :"hasnain",
-// }
-// console.log(obj)
+let obj = {
+    a : 1,
+    b :"hasnain",
+}
+console.log(obj)
 
-// let animal = {
-//     eats : true
-// };
-// let rabbit = {
-//     jumps: true
-// };
-// rabbit.
-
-let ar = []
-console.dir(ar);
+let animal = {
+    eats : true
+};
+let rabbit = {
+    jumps: true
+};
+rabbit.__proto__ = animal;
