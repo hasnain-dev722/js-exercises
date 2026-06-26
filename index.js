@@ -68,30 +68,73 @@
 // };
 // rabbit.__proto__ = animal;
 
-class Animal {
-  constructor(name) {
-    this.name= name
-    console.log("object is created...");
-  }
-  eats() {
-    console.log("kha rha hu");
-  }
-  jumps() {
-    console.log("kood rha hu");
-  }
+// class Animal {
+//   constructor(name) {
+//     this.name= name
+//     console.log("object is created...");
+//   }
+//   eats() {
+//     console.log("kha rha hu");
+//   }
+//   jumps() {
+//     console.log("kood rha hu");
+//   }
+// }
+// class lion extends Animal {
+//   constructor(name) {
+//     super(name);
+//     this.name = name;
+//     console.log("object is created and he is lion...");
+//   }
+//   eats() {
+//     super.eats()
+//     console.log("kha rha hu roar");
+//   }
+// }
+// let a = new Animal("hasnain")
+// console.log(a);
+// let l = new lion("shera")
+// console.log(l)
+
+class joker{
+    constructor(name){
+        this.name = name
+    }
+    set name(newname){
+        if(newname.length<3){
+            console.log('modabana bra name likho');
+            
+        }else{
+            this._name = newname;
+        }
+    }
+    get name(){
+        return this._name.toUppercase()
+    }
+    eats(){
+        console.log('gemini joker ha');
+        
+    }
+    jumps(){
+        console.log('bra dimag khatii ha ');
+        
+    }
 }
-class lion extends Animal {
-  constructor(name) {
-    super(name);
-    this.name = name;
-    console.log("object is created and he is lion...");
-  }
-  eats() {
-    super.eats()
-    console.log("kha rha hu roar");
-  }
+class hasnain extends joker {
+    constructor(name){
+        super(name)
+        this.name= name
+    }
+    eats(){
+        console.log('hasnin genius ha');
+        
+    }
+    jumps(){
+        console.log('shair ha');
+        
+    }
 }
-let a = new Animal("hasnain")
+let a = new joker("gemini")
 console.log(a);
-let l = new lion("shera")
-console.log(l)
+let b = new hasnain("ge")
+console.log(b);
