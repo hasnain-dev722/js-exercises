@@ -50,7 +50,13 @@
 // }
 // }
 // let c = main();
-let container = document.querySelector("#container")
-let paragraph = document.querySelector(".color")
-container.innerHTML = "hasnain conatiner";
-paragraph.style.color = "green"
+// let container = document.querySelector("#container")
+// let paragraph = document.querySelector(".color")
+// container.innerHTML = "hasnain conatiner";
+// paragraph.style.color = "green"
+
+let obj = {
+    a : 1,
+    b :"hasnain",
+}
+console.log(obj)
