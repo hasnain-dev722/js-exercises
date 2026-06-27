@@ -146,18 +146,18 @@
 // let b = new hasnain("ge")
 // console.log(b);
 
-async function sleep(){
-   return new Promise((reslove, reject)=>{
-      setTimeout(()=>{
-          reslove (45)
-      }, 1000);
-   })
-}
-function sum (a, b, c){
-   return a+b+c
-}
-(async function () {
-   console.log(a1);
+// async function sleep(){
+//    return new Promise((reslove, reject)=>{
+//       setTimeout(()=>{
+//           reslove (45)
+//       }, 1000);
+//    })
+// }
+// function sum (a, b, c){
+//    return a+b+c
+// }
+// (async function () {
+//    console.log(a1);
    
 // let a = await sleep()
 // console.log(a);
@@ -166,20 +166,26 @@ function sum (a, b, c){
 // console.log(b);
 // let [x,y,...rest] = [12, 12,3 ,4, 5,]
 // console.log(x,y,rest);
-let obj = {
-   a : 1,
-   b : 2, 
-   c :3
-}
-let {a, b} = obj
-console.log(a, b);
+// let obj = {
+//    a : 1,
+//    b : 2, 
+//    c :3
+// }
+// let {a, b} = obj
+// console.log(a, b);
  
-let arr = [1, 4, 5]
-console.log(arr[0], arr[1], arr[2]);
-console.log(sum(...arr))
+// let arr = [1, 4, 5]
+// console.log(arr[0], arr[1], arr[2]);
+// console.log(sum(...arr))
 
-var a1 = 6;
+// var a1 = 6;
 
-})()
+// })()
 
-
+let container = document.querySelector(".container")
+let mybutton = document.querySelector("#btn")
+// container.classList.toggle("magic-style")
+mybutton.addEventListener("click",()=>{
+// console.log("chal giya ay oye")
+container.classList.toggle("magic-style")
+})
