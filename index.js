@@ -182,10 +182,14 @@
 
 // })()
 
-let container = document.querySelector(".container")
-let mybutton = document.querySelector("#btn")
+// let container = document.querySelector(".container")
+// let mybutton = document.querySelector("#btn")
+// // container.classList.toggle("magic-style")
+// mybutton.addEventListener("mouseleave",()=>{
+// // console.log("chal giya ay oye")
 // container.classList.toggle("magic-style")
-mybutton.addEventListener("click",()=>{
-// console.log("chal giya ay oye")
-container.classList.toggle("magic-style")
-})
+// })
+
+let paragraph = document.querySelector("#color");
+let father = paragraph.parentElement;
+console.log(father);
