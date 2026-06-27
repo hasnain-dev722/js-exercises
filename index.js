@@ -153,3 +153,27 @@ async function sleep(){
       }, 1000);
    })
 }
+function sum (a, b, c){
+   return a+b+c
+}
+(async function () {
+// let a = await sleep()
+// console.log(a);
+
+// let b = await sleep()
+// console.log(b);
+// let [x,y,...rest] = [12, 12,3 ,4, 5,]
+// console.log(x,y,rest);
+let obj = {
+   a : 1,
+   b : 2, 
+   c :3
+}
+let {a, b} = obj
+console.log(a, b);
+
+
+
+})()
+
+
