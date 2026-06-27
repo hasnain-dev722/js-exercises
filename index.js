@@ -157,6 +157,8 @@ function sum (a, b, c){
    return a+b+c
 }
 (async function () {
+   console.log(a1);
+   
 // let a = await sleep()
 // console.log(a);
 
@@ -171,8 +173,12 @@ let obj = {
 }
 let {a, b} = obj
 console.log(a, b);
+ 
+let arr = [1, 4, 5]
+console.log(arr[0], arr[1], arr[2]);
+console.log(sum(...arr))
 
-
+var a1 = 6;
 
 })()
 
