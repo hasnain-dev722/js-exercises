@@ -49,13 +49,13 @@
 // }
 // }
 // let c = main();
-let container = document.querySelector(".container")
-let paragraph = document.querySelector(".color")
-let mybutton = document.querySelector("#btn")
-container.classList.toggle("magic-style")
-mybutton.addEventListener("click",()=>{
-   container.classList.toggle("magic-style")
-})
+// let container = document.querySelector(".container")
+// let paragraph = document.querySelector(".color")
+// let mybutton = document.querySelector("#btn")
+// container.classList.toggle("magic-style")
+// mybutton.addEventListener("click",()=>{
+//    container.classList.toggle("magic-style")
+// })
 
 // let paragraph = document.querySelector(".color")
 // container.innerHTML = "hasnain conatiner";
@@ -145,3 +145,11 @@ mybutton.addEventListener("click",()=>{
 // console.log(a);
 // let b = new hasnain("ge")
 // console.log(b);
+
+async function sleep(){
+   return new Promise((reslove, reject)=>{
+      setTimeout(()=>{
+          reslove (45)
+      }, 1000);
+   })
+}
