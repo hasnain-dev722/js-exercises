@@ -203,8 +203,10 @@
 // myheading.remove();
 // // dom mastering
 
- var compose = function(function){
+ var compose = function(functions){
     return function(x){
+    if(functions.length ===0){
         
+    }
     }    
  }
