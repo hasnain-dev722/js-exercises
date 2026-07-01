@@ -194,11 +194,13 @@
 // let father = paragraph.parentElement;
 // console.log(father);
 
-let myheading = document.createElement("h1")
-myheading.innerText = "welcome millionare";
-myheading.style.color = "green";
-myheading.classList.add("main-title")
-let container = document.querySelector("#container")
-container.appendChild(myheading)
-myheading.remove();
-// dom mastering
+// let myheading = document.createElement("h1")
+// myheading.innerText = "welcome millionare";
+// myheading.style.color = "green";
+// myheading.classList.add("main-title")
+// let container = document.querySelector("#container")
+// container.appendChild(myheading)
+// myheading.remove();
+// // dom mastering
+
+ var compose = function
