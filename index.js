@@ -203,4 +203,8 @@
 // myheading.remove();
 // // dom mastering
 
- var compose = function
+ var compose = function(function){
+    return function(x){
+        
+    }    
+ }
